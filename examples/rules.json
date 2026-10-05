@@ -1,0 +1,27 @@
+{
+  "rules": [
+    {
+      "id": "R-BRUTE-FORCE",
+      "version": 1,
+      "name": "SSH brute force",
+      "description": "Same account fails to log in 5 times within 5 minutes",
+      "severity": "high",
+      "event_type": "login_failed",
+      "window_seconds": 300,
+      "threshold": 5,
+      "suppress_seconds": 120
+    },
+    {
+      "id": "R-PASSWORD-SPRAY",
+      "version": 1,
+      "name": "Password spray from one source",
+      "description": "One source IP fails against any account 10 times within 10 minutes",
+      "severity": "critical",
+      "event_type": "login_failed",
+      "field_equals": {"auth_method": "password"},
+      "window_seconds": 600,
+      "threshold": 10,
+      "suppress_seconds": 300
+    }
+  ]
+}

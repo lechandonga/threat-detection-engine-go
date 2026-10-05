@@ -1,0 +1,10 @@
+{"event_id":"e001","event_type":"login_failed","timestamp":"2026-10-05T12:00:00Z","entity":"alice","fields":{"source_ip":"10.0.0.9","auth_method":"password"}}
+{"event_id":"e003","event_type":"login_failed","timestamp":"2026-10-05T12:00:40Z","entity":"alice","fields":{"source_ip":"10.0.0.9","auth_method":"password"}}
+{"event_id":"e002","event_type":"login_failed","timestamp":"2026-10-05T12:00:20Z","entity":"alice","fields":{"source_ip":"10.0.0.9","auth_method":"password"}}
+{"event_id":"e005","event_type":"login_failed","timestamp":"2026-10-05T12:01:20Z","entity":"alice","fields":{"source_ip":"10.0.0.9","auth_method":"password"}}
+{"event_id":"e004","event_type":"login_failed","timestamp":"2026-10-05T12:01:00Z","entity":"alice","fields":{"source_ip":"10.0.0.9","auth_method":"password"}}
+{"event_id":"e006","event_type":"login_failed","timestamp":"2026-10-05T12:01:40Z","entity":"alice","fields":{"source_ip":"10.0.0.9","auth_method":"password"}}
+{"event_id":"e007","event_type":"login_failed","timestamp":"2026-10-05T12:02:00Z","entity":"bob","fields":{"source_ip":"10.0.0.9","auth_method":"password"}}
+{"event_id":"e008","event_type":"login_failed","timestamp":"2026-10-05T12:02:30Z","entity":"carol","fields":{"source_ip":"10.0.0.9","auth_method":"password"}}
+{"event_id":"e009","event_type":"login_success","timestamp":"2026-10-05T12:03:00Z","entity":"alice","fields":{"source_ip":"10.0.0.9"}}
+{"event_id":"e010","event_type":"login_failed","timestamp":"2026-10-05T11:00:00Z","entity":"dave","fields":{"source_ip":"10.0.0.9","auth_method":"password"}}
